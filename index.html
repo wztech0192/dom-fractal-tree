@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Fractal Tree</title>
+    <script src="index.js"></script>
+    <style>
+        body,
+        html {
+            margin: 0
+        }
+
+        .node {
+            background: rgba(100, 100, 100, 0.1);
+            border: black solid 1px;
+            display: inline-flex;
+            position: absolute;
+            transform-origin: top;
+            border-radius: 25%;
+        }
+
+        #action_panel {
+            margin-left: 10px;
+            position: fixed;
+            z-index: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="action_panel"></div>
+    <div id="tree_container"></div>
+</body>
+
+</html>
