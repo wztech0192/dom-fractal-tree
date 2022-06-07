@@ -1,8 +1,8 @@
 # dom-fractal-tree
-A interactive fractal tree generate from javascript + html dom
+A interactive fractal tree build with vanilla javascript + html dom
 
-# How to use
+## How to use
 Open index.html directly in any browser
 
-# Demo
+## Demo
 http://www.wztechs.com/dom-fractal-tree/
